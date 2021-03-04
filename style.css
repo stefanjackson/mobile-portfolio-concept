@@ -12,6 +12,7 @@ body {
 
 main{
 	margin: 25px 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .fa-plus {
@@ -43,6 +44,10 @@ main{
 	color: rgb(244,164,96);
 }
 
+h2 {
+	font-weight: 900;
+	font-size: 2rem;
+}
 /*Header style */
 header {
 	display: flex;
@@ -139,12 +144,18 @@ nav ul li a {
 	width: 50%;
 }
 
+.about-me-container {
+	background-color: rgb(40,40,40);
+	border-radius: 15px;
+	padding: 10px;
+}
+
 .about-me-top {
 	display: flex;
 	justify-content: space-around;
 	padding: 20px 0px;
 	border-radius: 15px;
-	background-color: rgb(40,40,40, 1);
+	background-color: 	rgb(169,169,169, 0.2);
 }
 
 .image-container {
@@ -182,7 +193,7 @@ nav ul li a {
 	width: 60%;
 	padding: 5px;
 	border-radius: 15px;
-	background-color: rgb(40,40,40, 1);
+	background-color: rgb(169,169,169, 0.2);
 }
 
 .about-me-skills {
@@ -190,7 +201,7 @@ nav ul li a {
 	width: 40%;
 	margin-left: 5px;
 	border-radius: 15px;
-	background-color: rgb(40,40,40, 1);
+	background-color: rgb(169,169,169, 0.2);
 }
 
 
@@ -211,8 +222,11 @@ nav ul li a {
 }
 
 .resume-download-button button{ 
+	color:rgb(138,43,226);
+	text-shadow: 2px 2px 6px red;
 	border-radius: 15px;
 	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 	
+	border:none;
  }
 
 /*End of About section styling */
@@ -232,8 +246,8 @@ nav ul li a {
 }
 
 .portfolio-box-container { 
-	padding: 5px;
-	margin-bottom: 10px;
+	padding: 10px;
+	margin-bottom: 15px;
 	border-radius: 15px;
 	background-color: rgb(40,40,40, 1);
  }
@@ -241,9 +255,11 @@ nav ul li a {
 .portfolio-box {
 	width: 100%;
 	display: flex;
+	align-items: center;
 }
 
 .portfolio-box img {
+	padding: 5px;
 	width: 125px;
 	height: 125px;
 	border-radius: 50%;
@@ -255,13 +271,12 @@ nav ul li a {
 
 .port-container-info {
 	padding-left: 10px;
-}
-
-.port-skills{
-	padding: 5px;
+	background-color: 	rgb(169,169,169, 0.2);
+	border-radius: 15px;
 }
 
 .port-skills  {
+	padding: 5px;
 	  animation-duration: 3s;
        animation-iteration-count: infinite;
 }
@@ -289,9 +304,13 @@ nav ul li a {
 
 
 .port-container-skills {
+	margin-top: 5px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	background-color: 	rgb(169,169,169, 0.2);
+	border-radius: 15px;
+
 }
 
 .portfolio-section button a{
@@ -300,6 +319,7 @@ nav ul li a {
 }
 
 .port-button {
+	min-height: 25px;
 	padding-bottom: 10px;
 	margin-top: 10px;
 	display: flex;
@@ -312,7 +332,7 @@ nav ul li a {
 }
 
 .show-more-button {
-	padding-bottom: 10px;
+	padding: 10px 0;
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;

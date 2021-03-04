@@ -3,6 +3,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
 	<script src="script.js"></script>
 	<title>Portfolio</title>
@@ -38,57 +41,60 @@
 		<section class="about-me">
 			<h2>About</h2>
 			<hr class="underline-title">
-			<div class="about-me-top">
-				<div class="image-container">
-					<img src="assets/IMG_0164.JPG" alt="Picture of myself smiling.">
-				</div>
-				
-				<div class="about-name-card">
-					<h4>Stefan Jackson</h4>
-					<p>Developer</p>
-					<p>Toronto, Canada</p>
-				</div>
-			</div>
-
-			<div class="about-me-info">
-				<div class="about-me-bio">
-					<h3>Bio</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque laboriosam ducimus assumenda, vel nesciunt qui blanditiis consequuntur id dolorem placeat sequi quos, dolor quidem, exercitationem, atque itaque enim quam tempore.</p>
+			<div class="about-me-container">
+				<div class="about-me-top">
+					<div class="image-container">
+						<img src="assets/IMG_0164.JPG" alt="Picture of myself smiling.">
+					</div>
+					
+					<div class="about-name-card">
+						<h4>Stefan Jackson</h4>
+						<p>Developer</p>
+						<p>Toronto, Canada</p>
+					</div>
 				</div>
 
-				<div class="about-me-skills">
-					<h3>Skills</h3>
-					<div class="vl">
-						<div class="skillsbox">
-							<i class="fab fa-js-square"></i>
-							<p>JavaScript</p>
-						</div>
-						<div class="skillsbox">
-							<i class="fab fa-react"></i>
-							<p>React</p>
-						</div>	
-						<div class="skillsbox">
-							<i class="fas fa-code"></i>
-							<p>HTML / CSS / SCSS</p>
-						</div>	
-						<div class="skillsbox">
-							<i class="fab fa-shopify"></i>
-							<p>Shopify</p>
-						</div>
-						<div class="skillsbox">
-							<i class="fab fa-wordpress"></i>
-							<p>Wordpress</p>
-						</div>
-						<div class="skillsbox">
-							<i class="fas fa-pencil-ruler"></i>
-							<p>Web Design</p>
-						</div>		
-					</div>									
+				<div class="about-me-info">
+					<div class="about-me-bio">
+						<h3>Bio</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque laboriosam ducimus assumenda, vel nesciunt qui blanditiis consequuntur id dolorem placeat sequi quos, dolor quidem, exercitationem, atque itaque enim quam tempore.</p>
+					</div>
+
+					<div class="about-me-skills">
+						<h3>Skills</h3>
+						<div class="vl">
+							<div class="skillsbox">
+								<i class="fab fa-js-square"></i>
+								<p>JavaScript</p>
+							</div>
+							<div class="skillsbox">
+								<i class="fab fa-react"></i>
+								<p>React</p>
+							</div>	
+							<div class="skillsbox">
+								<i class="fas fa-code"></i>
+								<p>HTML / CSS / SCSS</p>
+							</div>	
+							<div class="skillsbox">
+								<i class="fab fa-shopify"></i>
+								<p>Shopify</p>
+							</div>
+							<div class="skillsbox">
+								<i class="fab fa-wordpress"></i>
+								<p>Wordpress</p>
+							</div>
+							<div class="skillsbox">
+								<i class="fas fa-pencil-ruler"></i>
+								<p>Web Design</p>
+							</div>		
+						</div>									
+					</div>
+				</div>
+				<div class="resume-download-button">
+					<button id="clickable"><strong><p>DOWNLOAD RESUME</p></strong></button>
 				</div>
 			</div>
-			<div class="resume-download-button">
-				<button><p>DOWNLOAD RESUME</p></button>
-			</div>
+			
 			
 		</section>
 		<section id="portfolio" class="portfolio-section">
@@ -226,7 +232,7 @@
 					</div>
 				</div>
 				<div class="show-more-button">
-					<button><p>VIEW MORE ON GITHUB</p></button>
+					<button><a href="https://github.com/stefanjackson" target=”_blank”><p>VIEW MORE ON GITHUB</p></a></button>
 				</div>
 
 				
