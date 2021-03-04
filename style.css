@@ -224,10 +224,8 @@ nav ul li a {
 
 .resume-download-button button{ 
 	color:rgb(138,43,226);
-	text-shadow: 2px 2px 6px red;
-	border-radius: 15px;
+	border-radius: 10px;
 	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 	
-	border:none;
  }
 
 /*End of About section styling */
@@ -340,6 +338,11 @@ nav ul li a {
 }
 
 .show-more-button button{
-	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 	
-	border-radius: 5px;
+	color:rgb(138,43,226);
+	border-radius: 10px;
+	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 
+}
+
+.show-more-button p {
+	color:rgb(138,43,226);
 }
