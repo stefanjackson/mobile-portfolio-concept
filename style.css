@@ -12,17 +12,24 @@ main{
 	border: 1px solid red;
 }
 /*Header style */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header p {
+	padding: 10px;
+}
 
 nav{
-	padding-top: 25px;
+	padding-top: 5px;
 }
 
 nav ul {
 	list-style: none;
 	padding: 0;
 	display: flex;
-	justify-content: center;
-
 }
 
 nav ul li {
