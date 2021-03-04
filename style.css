@@ -1,15 +1,17 @@
 
 /*General style */	
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
+	color: white;
 	width: 100%;
 	margin: 0 auto;
 	box-sizing:border-box;
+	background-color: #23272a;
 }
 
 main{
 	margin: 25px 10px;
-	border: 1px solid red;
 }
 /*Header style */
 header {
@@ -22,9 +24,48 @@ header p {
 	padding: 10px;
 }
 
-nav{
-	padding-top: 5px;
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: grey;
 }
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+   position: absolute;
+  left: 53px;
+  top: 0;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+	font-size: 1.5em;
+  background:#23272a;
+  display: ;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: #23272a;
+}
+
+
+
+#823DEA
 
 nav ul {
 	list-style: none;
@@ -33,6 +74,7 @@ nav ul {
 }
 
 nav ul li {
+	display: none;
 	padding: 10px;
 }
 
@@ -45,9 +87,19 @@ nav ul li a {
 	color:inherit;
 }
 
+.time-stamp p{
+	margin-top: 0;
+}
+
 /*-------Beginning of Main section style ------- */
 
 	/*ABOUT ME/INFO SECTION START*/
+
+.about-me {
+	padding: 10px;
+	background: linear-gradient(rgb(75,0,130), rgb(138,43,226));
+	border-radius: 15px;
+}
 
 .about-me h2 {
 	text-align: center;
@@ -61,6 +113,8 @@ nav ul li a {
 	display: flex;
 	justify-content: space-around;
 	padding: 20px 0px;
+	border-radius: 15px;
+	background-color: rgb(169,169,169, 0.9);
 }
 
 .image-container {
@@ -89,6 +143,7 @@ nav ul li a {
 }
 
 .about-me-info {
+	margin-top: 5px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -96,6 +151,8 @@ nav ul li a {
 .about-me-bio {
 	width: 60%;
 	padding: 5px;
+	border-radius: 15px;
+	background-color: rgb(	169,169,169, 0.9);
 }
 
 .about-me-bio p {
@@ -108,8 +165,11 @@ nav ul li a {
   }
 }
 .about-me-skills {
+	padding: 5px;
 	width: 40%;
-	margin-left: 15px;
+	margin-left: 5px;
+	border-radius: 15px;
+	background-color: rgb(	169,169,169, 0.9);
 }
 
 
@@ -122,19 +182,35 @@ nav ul li a {
 	margin: 5px;
 }
 
+.resume-download-button {
+	padding-bottom: 10px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
 /*End of About section styling */
 
 
 /*-----------Beggining of Portfolio area styling --------*/
 
 .portfolio-section {
+	padding: 10px;
 	margin-top:25px;
+	background: linear-gradient(rgb(75,0,130), rgb(138,43,226));
+	border-radius: 15px;
 }
 
 .portfolio-section h2{
 	text-align: center;
 }
 
+.portfolio-box-container { 
+	padding: 5px;
+	margin-bottom: 5px;
+	border-radius: 15px;
+	background-color: rgb(169,169,169, 0.9);
+ }
 
 .portfolio-box {
 	width: 100%;
@@ -151,9 +227,6 @@ nav ul li a {
 	margin:  15px 0;
 }
 
-.portfolio-box-container {
-	border: 1px solid blue;
-}
 
 .port-skills{
 	padding: 5px;
@@ -175,3 +248,12 @@ nav ul li a {
 	display: flex;
 	justify-content: center;
 }
+
+.show-more-button {
+	padding-bottom: 10px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+

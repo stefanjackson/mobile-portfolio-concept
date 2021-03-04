@@ -4,13 +4,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
-
+	<script src="script.js"></script>
 	<title>Portfolio</title>
 </head>
 <body>
 	<header>
 		<div class="nav-div">
-			<nav>
+			<div class="topnav">
+			  <!-- Navigation links (hidden by default) -->
+			  <div id="myLinks">
+			    <a href="#">About</a>
+			    <a href="#portfolio">Portfolio</a>
+			    <a href="#contact">Contact</a>			    
+			  </div>
+			  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			    <i class="fa fa-bars"></i>
+			  </a>
+			</div>
+
+			<nav class="full-size-nav">
 				<ul>
 					<li><a href="#">About</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
@@ -19,7 +32,7 @@
 			</nav>
 		</div>
 		
-		<div><p>Time</p></div>
+		<div class="time-stamp"><p>Time</p></div>
 	</header>
 	<main>
 		<section class="about-me">
@@ -73,12 +86,16 @@
 					</div>									
 				</div>
 			</div>
+			<div class="resume-download-button">
+				<button>
+					<a href="https://checkthevibe.ca/"  target=”_blank”>Dowload Resume</a>
+				</button>
+			</div>
 			
 		</section>
 		<section id="portfolio" class="portfolio-section">
 			<h2>Portfolio</h2>
-			<hr class="underline-title">
-			<div class="portfolio-container">
+			<hr class="underline-title">		
 				<div class="portfolio-box-container">
 					<div class="portfolio-box">
 						<img src="assets/IMG_9896.JPG" alt="Photo of beanie hat on www.checkthevibe.ca">
@@ -122,17 +139,147 @@
 						</button>
 					</div>
 				</div>
+
+				<div class="portfolio-box-container">
+					<div class="portfolio-box">
+						<img src="assets/IMG_9896.JPG" alt="Photo of beanie hat on www.checkthevibe.ca">
+						<div class="port-container-info">
+								<h4>Project: <a href="https://checkthevibe.ca/"  target=”_blank” >www.checkthevibe.ca</a></h4>
+								<p><strong>Scope of Work</strong></p>
+								<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Modi delectus quibusdam facere, porro optio velit odit, sunt, repellat natus ea distinctio voluptatibus debitis, odio laudantium minus quia corrupti officiis eius.</p>
+						</div>					
+					</div>
+
+					<div class="port-container-skills">
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Shopify</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>HTML / CSS</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Web Design</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Project Mngmt</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Content Mngmt</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Domain / Email setup + support</p>
+						</div>
+						
+					</div>
+					<div class="port-button">
+						<button>
+							<a href="https://checkthevibe.ca/"  target=”_blank”>Take me there!</a>
+						</button>
+					</div>
+				</div>
+
+				<div class="portfolio-box-container">
+					<div class="portfolio-box">
+						<img src="assets/IMG_9896.JPG" alt="Photo of beanie hat on www.checkthevibe.ca">
+						<div class="port-container-info">
+								<h4>Project: <a href="https://checkthevibe.ca/"  target=”_blank” >www.checkthevibe.ca</a></h4>
+								<p><strong>Scope of Work</strong></p>
+								<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Modi delectus quibusdam facere, porro optio velit odit, sunt, repellat natus ea distinctio voluptatibus debitis, odio laudantium minus quia corrupti officiis eius.</p>
+						</div>					
+					</div>
+
+					<div class="port-container-skills">
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Shopify</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>HTML / CSS</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Web Design</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Project Mngmt</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Content Mngmt</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Domain / Email setup + support</p>
+						</div>
+						
+					</div>
+					<div class="port-button">
+						<button>
+							<a href="https://checkthevibe.ca/"  target=”_blank”>Take me there!</a>
+						</button>
+					</div>
+				</div>
+
+				<div class="portfolio-box-container">
+					<div class="portfolio-box">
+						<img src="assets/IMG_9896.JPG" alt="Photo of beanie hat on www.checkthevibe.ca">
+						<div class="port-container-info">
+								<h4>Project: <a href="https://checkthevibe.ca/"  target=”_blank” >www.checkthevibe.ca</a></h4>
+								<p><strong>Scope of Work</strong></p>
+								<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Modi delectus quibusdam facere, porro optio velit odit, sunt, repellat natus ea distinctio voluptatibus debitis, odio laudantium minus quia corrupti officiis eius.</p>
+						</div>					
+					</div>
+
+					<div class="port-container-skills">
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Shopify</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>HTML / CSS</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Web Design</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Project Mngmt</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Content Mngmt</p>
+						</div>
+						<div class="skillsbox port-skills">
+							<i class="fas fa-plus"></i>
+							<p>Domain / Email setup + support</p>
+						</div>
+						
+					</div>
+					<div class="port-button">
+						<button>
+							<a href="https://checkthevibe.ca/"  target=”_blank”>Take me there!</a>
+						</button>
+					</div>
+				</div>
+				<div class="show-more-button">
+					<button><p>Show more</p></button>
+				</div>
+
 				
-				<div class="portfolio-box">
-					<p>fdfsdafdsfasdfaasdfasdffassfs</p>
-				</div>
-				<div class="portfolio-box">
-					<p>fdsfs</p>
-				</div>
-				<div class="portfolio-box">
-					<p>fdsfs</p>
-				</div>
-			</div>
+		</section>
+
+		<section class="contact-section">
+			
 		</section>
 	</main>
 	<!--<footer></footer>-->
