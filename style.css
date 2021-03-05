@@ -389,7 +389,6 @@ nav ul li a {
 }
 
 .show-more-button button{
-	-webkit-appearance: none;
 	width: 175px;
 	min-height: 50px;
 	color: white;
@@ -444,6 +443,7 @@ nav ul li a {
 
 
 .submission input {
+	-webkit-appearance: none;
 	margin-bottom: 0;
 	min-height: 50px;
 	width: 175px;
