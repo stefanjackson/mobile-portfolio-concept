@@ -148,6 +148,7 @@ nav ul li a {
 
 .underline-title {
 	width: 50%;
+	max-width: 375px;
 }
 
 .about-me-container {
