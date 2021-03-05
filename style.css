@@ -91,6 +91,7 @@ header p {
 
 /* Style the hamburger menu */
 .topnav a.icon {
+	padding-left: 10px;
 	font-size: 1.5em;
   background:#23272a;
   display: ;
