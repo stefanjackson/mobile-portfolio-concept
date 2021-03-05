@@ -312,6 +312,11 @@ nav ul li a {
 	border-radius: 15px;
 }
 
+.port-container-info a {
+	color: white;
+	font-weight: normal;
+}
+
 .port-skills  {
 	padding: 5px;
 	  animation-duration: 3s;
