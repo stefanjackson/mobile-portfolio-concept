@@ -393,7 +393,7 @@ nav ul li a {
 	min-height: 50px;
 	color: white;
 	border-radius: 5px;
-	
+	background-color: rgb(46,139,87); 
 }
 
 .show-more-button p {
@@ -447,7 +447,7 @@ nav ul li a {
 	min-height: 50px;
 	width: 175px;
 	border-radius: 5px;
-	background-color: rgb(46,139,87); 
+	background-color: #2e8b57; 
 	font-weight: bold;
 	font-size: 1rem;
 }
