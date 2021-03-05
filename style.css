@@ -389,6 +389,7 @@ nav ul li a {
 }
 
 .show-more-button button{
+	-webkit-appearance: none;
 	width: 175px;
 	min-height: 50px;
 	color: white;
