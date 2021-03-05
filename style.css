@@ -12,7 +12,7 @@ body {
 }
 
 main{
-	margin: 25px 10px;
+	margin: 15px 10px;
 	
 }
 
@@ -156,27 +156,30 @@ nav ul li a {
 }
 
 .about-me-top {
+	width: 100%;
 	display: flex;
-	justify-content: space-around;
-	padding: 20px 0px;
+	padding: 20px 5px;
 	border-radius: 15px;
 	background-color: 	rgb(169,169,169, 0.2);
 }
 
 .image-container {
-	width: 60%;
+	padding-left: 20px;
 	display: flex;
 	justify-content: center;
 }
 
 .about-me-top img {
-	width: 125px;
-	height: 125px;
+	min-width: 100px;
+	min-height: 100px;
+	max-width: 125px;
+	max-height: 125px;
 	border-radius: 50%;
 }
 
 .about-name-card {
-	width: 40%;
+	padding-left: 50px;
+	padding-right: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -189,22 +192,24 @@ nav ul li a {
 }
 
 .about-me-info {
-	margin-top: 5px;
+	
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
 .about-me-bio {
-	width: 60%;
+	margin-top: 10px;
+	width: 100%;
 	padding: 5px;
 	border-radius: 15px;
 	background-color: rgb(169,169,169, 0.2);
 }
 
 .about-me-skills {
+	margin-top: 10px;
 	padding: 5px;
-	width: 40%;
-	margin-left: 5px;
+	width: 100%;
 	border-radius: 15px;
 	background-color: rgb(169,169,169, 0.2);
 }
@@ -227,6 +232,7 @@ nav ul li a {
 }
 
 .resume-download-button button{ 
+	width: 175px;
 	min-height: 50px;
 	color:rgb(138,43,226);
 	border-radius: 10px;
@@ -319,7 +325,7 @@ nav ul li a {
 
 
 .port-container-skills {
-	margin-top: 5px;
+	margin-top: 10px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -334,14 +340,14 @@ nav ul li a {
 }
 
 .port-button {
-	min-height: 35px;
-	padding-bottom: 10px;
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 }
 
 .port-button button{
+	width: 120px;
+	min-height: 35px;
 	background-color: rgb(138,43,226);
 	border-radius: 5px;
 }
@@ -354,6 +360,7 @@ nav ul li a {
 }
 
 .show-more-button button{
+	width: 175px;
 	min-height: 50px;
 	color:rgb(138,43,226);
 	border-radius: 10px;
@@ -386,7 +393,6 @@ nav ul li a {
 
 .contact-section form {
 	margin: auto !important;
-	
 	max-width: 350px;
 	padding: 15px;
 	margin-bottom: 15px;
@@ -404,18 +410,14 @@ nav ul li a {
 	margin-bottom: 10px;
 	border-radius: 10px;
 	opacity: 0.7;
-
 }
 
 
-
 .submission input {
+	opacity: 1;
 	margin-bottom: 0;
-}
-
-.submission input {
 	min-height: 50px;
-	min-width: 100px;
+	width: 175px;
 	color:rgb(138,43,226);
 	border-radius: 10px;
 	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 
@@ -430,6 +432,7 @@ nav ul li a {
 }
 
 .socials i {
+	padding: 15px;
 	font-size: 2em;
 	margin:0 20px;
 }
@@ -446,7 +449,7 @@ nav ul li a {
 	padding-left: 0;
 	display: flex;
 	justify-content: center;
-	font-size: 0.6em;
+	font-size: 0.8em;
 }
 
 .footer-nav ul li{
