@@ -447,9 +447,12 @@ nav ul li a {
 	min-height: 50px;
 	width: 175px;
 	border-radius: 5px;
-	background-color: #2e8b57; 
 	font-weight: bold;
 	font-size: 1rem;
+}
+
+#submit-button {
+	background-color: #2e8b57; 
 }
 
 .submission {
