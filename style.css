@@ -58,7 +58,7 @@ button {
 /*Header style */
 header {
 	width: 100%;
-	height: 50px;
+	height: 50git px;
 	position: fixed;
 	top:0;
 	background-color: rgb(35, 39, 42, 0.7);
@@ -150,8 +150,8 @@ nav ul li a {
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
-	background: linear-gradient(rgb(75,0,130), rgb(138,43,226));
-	border-radius: 15px;
+	background-color: rgb(75,0,130);
+	border-radius: 5px;
 }
 
 .about-me h2 {
@@ -167,7 +167,7 @@ nav ul li a {
 	max-width: 350px;
 	padding: 20px;
 	margin-bottom: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color: rgb(40,40,40, 1);
 	
 }
@@ -176,7 +176,7 @@ nav ul li a {
 	display: flex;
 	
 	padding: 10px 0;
-	border-radius: 15px;
+	border-radius: 5px;
 	background-color: 	rgb(169,169,169, 0.2);
 }
 
@@ -213,13 +213,13 @@ nav ul li a {
 
 .about-me-bio {
 	margin-top: 10px;
-	border-radius: 15px;
+	border-radius: 5px;
 	background-color: rgb(169,169,169, 0.2);
 }
 
 .about-me-skills {
 	margin-top: 10px;
-	border-radius: 15px;
+	border-radius: 5px;
 	background-color: rgb(169,169,169, 0.2);
 }
 
@@ -256,9 +256,9 @@ nav ul li a {
 .resume-download-button button{ 
 	width: 175px;
 	min-height: 50px;
-	color:rgb(138,43,226);
-	border-radius: 10px;
-	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 	
+	color: white;
+	border-radius: 5px;
+	background-color: rgb(46,139,87); 	
  }
 
 /*End of About section styling */
@@ -272,7 +272,7 @@ nav ul li a {
 	align-items: center;
 	padding: 10px;
 	margin-top:25px;
-	background: linear-gradient(rgb(75,0,130), rgb(138,43,226));
+	background-color: rgb(75,0,130);
 	border-radius: 15px;
 }
 
@@ -286,7 +286,7 @@ nav ul li a {
 	max-width: 350px;
 	padding: 20px;
 	margin-bottom: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color: rgb(40,40,40, 1);
  }
 
@@ -316,7 +316,7 @@ nav ul li a {
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color: 	rgb(169,169,169, 0.2);
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .port-container-info a {
@@ -330,6 +330,7 @@ nav ul li a {
        animation-iteration-count: infinite;
 }
 
+/*
 .bounce {
 	animation-name: bounce;
     animation-timing-function: ease;
@@ -349,7 +350,7 @@ nav ul li a {
 	animation-name: bounce-2;
     animation-timing-function: ease;
 }
-
+*/
 
 
 .port-container-skills {
@@ -359,7 +360,7 @@ nav ul li a {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	background-color: 	rgb(169,169,169, 0.2);
-	border-radius: 15px;
+	border-radius: 5px;
 
 }
 
@@ -390,13 +391,13 @@ nav ul li a {
 .show-more-button button{
 	width: 175px;
 	min-height: 50px;
-	color:rgb(138,43,226);
-	border-radius: 10px;
-	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 
+	color: white;
+	border-radius: 5px;
+	background-color: rgb(46,139,87); 
 }
 
 .show-more-button p {
-	color:rgb(138,43,226);
+	color: white;
 }
 
 /*---END OF PORTFOLIO SECTION ---- */
@@ -436,7 +437,7 @@ nav ul li a {
 .contact-section textarea {
 	max-width: 80%;
 	margin-bottom: 10px;
-	border-radius: 10px;
+	border-radius: 5px;
 	opacity: 0.7;
 }
 
@@ -446,9 +447,9 @@ nav ul li a {
 	margin-bottom: 0;
 	min-height: 50px;
 	width: 175px;
-	color:rgb(138,43,226);
-	border-radius: 10px;
-	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 
+	color: white;
+	border-radius: 5px;
+	background-color:rgb(46,139,87); 
 	font-weight: bold;
 	font-size: 1rem;
 }
