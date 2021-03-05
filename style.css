@@ -49,6 +49,11 @@ h2 {
 	font-weight: 900;
 	font-size: 2rem;
 }
+
+button {
+	font-weight: bold;
+	font-size: 0.8em;
+}
 /*Header style */
 header {
 	display: flex;
@@ -99,10 +104,6 @@ header p {
   color: #23272a;
 }
 
-
-
-#823DEA
-
 nav ul {
 	list-style: none;
 	padding: 0;
@@ -149,16 +150,19 @@ nav ul li a {
 }
 
 .about-me-container {
+	padding: 20px;
 	max-width: 350px;
 	background-color: rgb(40,40,40);
 	border-radius: 15px;
-	padding: 20px;
+	
 }
 
 .about-me-top {
+
 	width: 100%;
+	max-width: 350px;
 	display: flex;
-	padding: 20px 5px;
+	padding: 20px 0;
 	border-radius: 15px;
 	background-color: 	rgb(169,169,169, 0.2);
 }
@@ -183,7 +187,6 @@ nav ul li a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: -20px;
 
 }
 
@@ -192,23 +195,21 @@ nav ul li a {
 }
 
 .about-me-info {
-	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
 .about-me-bio {
-	margin-top: 10px;
 	width: 100%;
-	padding: 5px;
+	margin-top: 10px;
+
 	border-radius: 15px;
 	background-color: rgb(169,169,169, 0.2);
 }
 
 .about-me-skills {
 	margin-top: 10px;
-	padding: 5px;
 	width: 100%;
 	border-radius: 15px;
 	background-color: rgb(169,169,169, 0.2);
@@ -216,13 +217,26 @@ nav ul li a {
 
 
 .skillsbox {
+	padding-left: 10px;
 	display: flex;
 	align-items: center;
+}
+
+.skillsbox:last-child {
+	padding-bottom:10px;
 }
 
 .skillsbox p {
 	margin: 7px;
 }
+
+.about-me-bio h3,
+.about-me-bio p,
+.about-me-skills h3 {
+	padding-left: 10px;
+	padding-right: 10px
+}
+
 
 .resume-download-button {
 	padding: 10px;
@@ -292,6 +306,7 @@ nav ul li a {
 
 .port-container-info {
 	padding-left: 10px;
+	padding-right: 10px;
 	background-color: 	rgb(169,169,169, 0.2);
 	border-radius: 15px;
 }
@@ -325,6 +340,7 @@ nav ul li a {
 
 
 .port-container-skills {
+	padding: 0 10px;
 	margin-top: 10px;
 	display: flex;
 	justify-content: space-around;
@@ -354,7 +370,6 @@ nav ul li a {
 
 .show-more-button {
 	padding: 10px 0;
-	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 }
@@ -423,6 +438,10 @@ nav ul li a {
 	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 
 	font-weight: bold;
 	font-size: 1rem;
+}
+
+.submission {
+	padding: 10px;
 }
 
 .socials {

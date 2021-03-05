@@ -10,7 +10,7 @@
 	<script src="script.js"></script>
 	<title>Portfolio</title>
 </head>
-<body>
+<body onload=display_ct();>
 	<header>
 		<div class="nav-div">
 			<div class="topnav">
@@ -35,7 +35,7 @@
 			</nav>
 		</div>
 		
-		<div class="time-stamp"><p>Time</p></div>
+		<p><span id="ct"></span></p>
 	</header>
 	<main>
 		<section class="about-me">
@@ -48,7 +48,7 @@
 					</div>
 					
 					<div class="about-name-card">
-						<h4>Stefan Jackson</h4>
+						<h3>Stefan Jackson</h3>
 						<p>Developer</p>
 						<p>Toronto, Canada</p>
 					</div>
@@ -299,5 +299,18 @@
 				</ul>
 			</nav>
 	</footer>
+
+	<script type="text/javascript"> 
+		function display_c(){
+		var refresh=1000; // Refresh rate in milli seconds
+		mytime=setTimeout('display_ct()',refresh)
+		}
+		function display_ct() {
+		var x = new Date()
+		var x1= x.getHours( )+ ":" +  x.getMinutes() + ":" +  x.getSeconds();
+		document.getElementById('ct').innerHTML = x1;
+		display_c();
+		 }
+		</script>
 </body>
 </html>
