@@ -238,10 +238,45 @@
 				
 		</section>
 
-		<section class="contact-section">
-			
+		<section class="contact-section" id="contact">
+			<h2>Contact</h2>
+			<hr class="underline-title">
+			<form action="" method="POST">
+		        <section class="contact-name">
+		          <label for="name">Name</label>
+		    			<input type="text" name="name" id="contact-id" required >
+		        </section>
+
+		        <section class="contact-name">
+		          <label for="email">Email</label>
+		    			<input type="email" name="email" id="contact-email" required>
+		        </section>
+
+		         <section class="extra-info">
+			        <label for="info">Lets connect!</label>
+			        <br>
+			        <textarea id="info" name="info" rows="7" cols="40"></textarea>
+			     </section>
+
+		        <section class="submission">
+		          <input type="submit" value="Submit">
+		        </section>    
+			</form>
+			<div class="socials">
+				<a href="https://github.com/stefanjackson" target=”_blank”><i class="fab fa-github"></i></a>
+				<a href=""><i class="fab fa-linkedin" ></i></a>	
+				<a href=""><i class="fab fa-twitter-square" target=”_blank”></a></i>
+			</div>
 		</section>
 	</main>
-	<!--<footer></footer>-->
+	<footer>
+		<nav class="footer-nav">
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+	</footer>
 </body>
 </html>

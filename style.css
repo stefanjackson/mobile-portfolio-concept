@@ -114,8 +114,8 @@ nav ul li {
 	padding: 10px;
 }
 
-nav li:not(:last-child) {
-    border-right: 1px solid black;
+.full-size-nav li:not(:last-child) {
+    border-right: 1px solid white;
 }
 
 nav ul li a {
@@ -347,4 +347,79 @@ nav ul li a {
 
 .show-more-button p {
 	color:rgb(138,43,226);
+}
+
+/*---END OF PORTFOLIO SECTION ---- */
+
+/*-----------------START OF CONTACT SECTION ---------------- */
+
+.contact-section {
+	padding: 10px;
+	margin-top:25px;
+	background: linear-gradient(rgb(75,0,130), rgb(138,43,226));
+	border-radius: 15px;
+	text-align: center;
+}
+
+.contact-section form {
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: rgb(40,40,40, 1);
+}
+
+.contact-section h2 {
+	text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+	margin-bottom: 10px;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+
+
+.submission input {
+	margin-bottom: 0;
+}
+
+.submission input {
+	min-height: 50px;
+	min-width: 100px;
+	color:rgb(138,43,226);
+	border-radius: 10px;
+	background: linear-gradient(rgb(46,139,87), rgb(0,250,154)); 
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+
+}
+
+.socials i {
+	font-size: 2em;
+	margin:0 20px;
+}
+
+.socials a {
+	color:white;
+}
+
+/*END OF CONTACT STYLE */
+
+/*----FOOTER STYLE------*/
+
+.footer-nav ul{
+	padding-left: 0;
+	display: flex;
+	justify-content: center;
+	font-size: 0.6em;
+}
+
+.footer-nav ul li{
+	display: block;
 }
