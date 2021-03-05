@@ -150,7 +150,7 @@ nav ul li a {
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
-	background-color: rgb(75,0,130);
+	background-color: rgb(138,43,226);
 	border-radius: 5px;
 }
 
@@ -272,7 +272,7 @@ nav ul li a {
 	align-items: center;
 	padding: 10px;
 	margin-top:25px;
-	background-color: rgb(75,0,130);
+	background-color: rgb(138,43,226);
 	border-radius: 15px;
 }
 
@@ -410,7 +410,7 @@ nav ul li a {
 	align-items: center;
 	padding: 10px;
 	margin-top:25px;
-	background: linear-gradient(rgb(75,0,130), rgb(138,43,226));
+	background: linear-gradient(rgb(138,43,226), rgb(75,0,130));
 	border-radius: 15px;
 	text-align: center;
 }
