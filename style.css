@@ -9,6 +9,8 @@ body {
 	box-sizing:border-box;
 	background-color: #23272a;
 	font-family: 'Roboto', sans-serif;
+	 overflow-y: scroll;
+	 -webkit-overflow-scrolling: touch;
 }
 
 main{
@@ -204,8 +206,20 @@ nav ul li a {
 
 }
 
-.about-name-card p{
+.about-name-card p,
+.about-name-card i {
 	margin: 3px;
+}
+
+.about-name-card i {
+	font-size: 2em;
+}
+
+.port-button button {
+	width: 120px;
+	min-height: 35px;
+	background-color: rgb(138,43,226);
+	border-radius: 5px;
 }
 
 .about-me-info {
@@ -376,13 +390,6 @@ nav ul li a {
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;
-}
-
-.port-button button{
-	width: 120px;
-	min-height: 35px;
-	background-color: rgb(138,43,226);
-	border-radius: 5px;
 }
 
 .show-more-button {
