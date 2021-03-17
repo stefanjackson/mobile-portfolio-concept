@@ -234,6 +234,10 @@ nav ul li a {
 	background-color: rgb(169,169,169, 0.2);
 }
 
+.about-me-bio p {
+	line-height: 1.3;
+}
+
 .about-me-skills {
 	margin-top: 10px;
 	border-radius: 5px;
@@ -339,6 +343,10 @@ nav ul li a {
 .port-container-info a {
 	color: white;
 	font-weight: normal;
+}
+
+.port-container-info p {
+	line-height: 1.3;
 }
 
 .port-skills  {
