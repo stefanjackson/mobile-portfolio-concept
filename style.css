@@ -453,14 +453,19 @@ nav ul li a {
 
 .contact-section input,
 .contact-section textarea {
-	color: white;
+	color: black;
 	max-width: 80%;
 	margin-bottom: 10px;
 	border-radius: 5px;
 }
 
+.form-div label {
+	color: white;
+}
+
 
 .submission input {
+	color:white;
 	-webkit-appearance: none;
 	margin-bottom: 0;
 	min-height: 50px;
